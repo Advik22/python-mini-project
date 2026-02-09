@@ -8,9 +8,10 @@ def addressVal(address):
     else:
         print("Valid")
 
-print("This program will decide if your input is a valid email address")
+print("This program will decide if your input is a valid email addressor not")
 while(True):
     print("A valid email address needs an '@' symbol and a '.'")
     x = input("Input your email address:")
 
     addressVal(x)
+    
